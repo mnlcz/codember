@@ -1,11 +1,11 @@
-function Assert-ValidUser($user) {
+function Assert-ValidUser($User) {
     return (
-        $user -like "*usr:*" -and
-        $user -like "*eme:*" -and
-        $user -like "*psw:*" -and
-        $user -like "*age:*" -and
-        $user -like "*loc:*" -and
-        $user -like "*fll:*"
+        $User -like "*usr:*" -and
+        $User -like "*eme:*" -and
+        $User -like "*psw:*" -and
+        $User -like "*age:*" -and
+        $User -like "*loc:*" -and
+        $User -like "*fll:*"
     )
 }
 
